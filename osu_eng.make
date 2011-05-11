@@ -85,6 +85,10 @@ projects[wysiwyg_imageupload_extra_fields][type] = "module"
 projects[wysiwyg_imageupload_extra_fields][download][type] = "git"
 projects[wysiwyg_imageupload_extra_fields][download][url] = "git@code.web.engadmin.ohio-state.edu:wysiwyg_imageupload_extra_fields.git"
 
+projects[appearance][type] = "module"
+projects[appearance][download][type] = "git"
+projects[appearance][download][url] = "git@code.web.engadmin.ohio-state.edu:appearance.git"
+
 projects[gachart][type] = "module"
 projects[gachart][download][type] = "git"
 projects[gachart][download][url] = "git@code.web.engadmin.ohio-state.edu:gachart.git"
