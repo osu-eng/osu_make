@@ -151,6 +151,11 @@ projects[osu_page][type] = "module"
 projects[osu_page][download][type] = "git"
 projects[osu_page][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_page.git"
 
+
+projects[osu_page_eng][type] = "module"
+projects[osu_page_eng][download][type] = "git"
+projects[osu_page_eng][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_page_eng.git"
+
 projects[osu_news][type] = "module"
 projects[osu_news][download][type] = "git"
 projects[osu_news][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_news.git"
