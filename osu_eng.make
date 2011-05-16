@@ -7,6 +7,7 @@ projects[] = advanced_help
 projects[] = backup_migrate
 projects[] = better_formats
 projects[] = cck
+projects[coder][version] = 2.x-dev
 projects[] = css_gzip
 projects[] = css_injector
 projects[] = ctools
