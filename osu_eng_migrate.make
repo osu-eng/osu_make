@@ -78,6 +78,55 @@ projects[] = wysiwyg
 projects[] = wysiwyg_imageupload
 projects[] = xmlsitemap
 
+; Used by legacy platform
+
+projects[] = adminrole
+projects[] = admin_menu
+projects[] = better_exposed_filters
+projects[] = calendar
+projects[] = iconizer
+projects[] = nice_menus
+projects[] = noderelationships
+projects[] = taxonomy_xml
+projects[] = uploadpath
+projects[] = variable_dump
+projects[] = views_slideshow_imageflow
+
+projects[] = zen
+projects[] = zen_ninesixty
+
+projects[eng01][type] = "theme"
+projects[eng01][download][type] = "git"
+projects[eng01][download][url] = "git@code.web.engadmin.ohio-state.edu:eng01.git"
+
+projects[news_feature][type] = "module"
+projects[news_feature][download][type] = "git"
+projects[news_feature][download][url] = "git@code.web.engadmin.ohio-state.edu:news_feature.git"
+
+projects[page_feature][type] = "module"
+projects[page_feature][download][type] = "git"
+projects[page_feature][download][url] = "git@code.web.engadmin.ohio-state.edu:page_feature.git"
+
+projects[events_feature][type] = "module"
+projects[events_feature][download][type] = "git"
+projects[events_feature][download][url] = "git@code.web.engadmin.ohio-state.edu:events_feature.git"
+
+projects[user_activity_feature][type] = "module"
+projects[user_activity_feature][download][type] = "git"
+projects[user_activity_feature][download][url] = "git@code.web.engadmin.ohio-state.edu:user_activity_feature.git"
+
+projects[imagecache_standard_presets_feature][type] = "module"
+projects[imagecache_standard_presets_feature][download][type] = "git"
+projects[imagecache_standard_presets_feature][download][url] = "git@code.web.engadmin.ohio-state.edu:imagecache_standard_presets_feature.git"
+
+projects[stdpkg][type] = "module"
+projects[stdpkg][download][type] = "git"
+projects[stdpkg][download][url] = "git@code.web.engadmin.ohio-state.edu:stdpkg.git"
+
+projects[
+
+; End used by legacy platform
+
 projects[jquery_ui][type] = "module"
 projects[jquery_ui][download][type] = "git"
 projects[jquery_ui][download][url] = "git@code.web.engadmin.ohio-state.edu:jquery_ui.git"
