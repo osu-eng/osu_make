@@ -50,6 +50,7 @@ projects[] = menutrails
 projects[] = modalframe
 projects[] = module_filter
 projects[] = nodequeue
+projects[] = override_node_options
 projects[] = panels
 projects[] = pathauto
 projects[] = pathologic
@@ -98,6 +99,10 @@ projects[] = zen_ninesixty
 projects[eng01][type] = "theme"
 projects[eng01][download][type] = "git"
 projects[eng01][download][url] = "git@code.web.engadmin.ohio-state.edu:eng01.git"
+
+projects[osu_eng_migrate][type] = "module"
+projects[osu_eng_migrate][download][type] = "git"
+projects[osu_eng_migrate][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_eng_migrate.git"
 
 projects[news_feature][type] = "module"
 projects[news_feature][download][type] = "git"

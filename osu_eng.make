@@ -50,6 +50,7 @@ projects[] = menutrails
 projects[] = modalframe
 projects[] = module_filter
 projects[] = nodequeue
+projects[] = override_node_options
 projects[] = panels
 projects[] = pathauto
 projects[] = pathologic
