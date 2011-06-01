@@ -75,7 +75,7 @@ projects[] = views
 projects[] = views_bulk_operations
 projects[] = views_slideshow
 projects[] = webform
-projects[] = wysiwyg
+projects[wysiwyg][version] = 2.x-dev
 projects[] = wysiwyg_imageupload
 projects[] = xmlsitemap
 
