@@ -91,6 +91,10 @@ projects[appearance][type] = "module"
 projects[appearance][download][type] = "git"
 projects[appearance][download][url] = "git@code.web.engadmin.ohio-state.edu:appearance.git"
 
+projects[site_information][type] = "module"
+projects[site_information][download][type] = "git"
+projects[site_information][download][url] = "git@code.web.engadmin.ohio-state.edu:site_information.git"
+
 projects[gachart][type] = "module"
 projects[gachart][download][type] = "git"
 projects[gachart][download][url] = "git@code.web.engadmin.ohio-state.edu:gachart.git"
