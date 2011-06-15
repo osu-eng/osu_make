@@ -2,6 +2,41 @@ core = 6.x
 api=2
 projects[] = drupal
 
+; things that are more transitory, need to be phased out
+projects[] = admin_menu
+projects[] = adminrole
+projects[] = auto_nodetitle
+projects[] = better_exposed_filters
+projects[] = calendar
+projects[] = captcha
+projects[] = coder
+projects[] = computed_field
+projects[] = contemplate
+projects[] = content_acess
+projects[] = fckeditor
+projects[] = fivestar
+projects[] = iconizer
+projects[] = image
+projects[] = innovationnews
+projects[] = insert
+projects[] = mimemail
+projects[] = nice_menus
+projects[] = node_relationships
+projects[] = prepopulate
+projects[] = quiz
+projects[] = search404
+projects[] = services
+projects[] = simplenews
+projects[] = storm
+projects[] = taxonomy_xml
+projects[] = ubercart
+projects[] = uc_who_bought_what
+projects[] = uploadpath
+projects[] = variable_dump
+projects[] = views_slideshow_imageflow
+projects[] = votingapi
+projects[] = xml2kml
+
 projects[] = admin
 projects[] = advanced_help
 projects[] = backup_migrate
@@ -79,20 +114,6 @@ projects[] = webform
 projects[wysiwyg][version] = 2.x-dev
 projects[] = wysiwyg_imageupload
 projects[] = xmlsitemap
-
-; Used by legacy platform
-
-projects[] = adminrole
-projects[] = admin_menu
-projects[] = better_exposed_filters
-projects[] = calendar
-projects[] = iconizer
-projects[] = nice_menus
-projects[] = noderelationships
-projects[] = taxonomy_xml
-projects[] = uploadpath
-projects[] = variable_dump
-projects[] = views_slideshow_imageflow
 
 projects[] = zen
 projects[] = zen_ninesixty
