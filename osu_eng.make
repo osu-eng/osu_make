@@ -60,6 +60,7 @@ projects[shib_auth][version] = 3.3
 projects[] = signup
 projects[] = sitedir_migrate
 projects[] = slideshowcs
+projects[] = spamspan
 projects[] = stringoverrides
 projects[] = strongarm
 projects[] = table_altrow
