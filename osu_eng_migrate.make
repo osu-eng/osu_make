@@ -3,16 +3,15 @@ api=2
 projects[] = drupal
 
 ; things that are more transitory, need to be phased out
+; projects[admin_menu][version] = 1.7
 projects[] = admin_menu
 projects[] = adminrole
-projects[] = auto_nodetitle
 projects[] = better_exposed_filters
 projects[] = calendar
 projects[] = captcha
-projects[] = coder
 projects[] = computed_field
 projects[] = contemplate
-projects[] = content_acess
+projects[] = content_access
 projects[] = fckeditor
 projects[] = fivestar
 projects[] = iconizer
@@ -20,8 +19,8 @@ projects[] = image
 projects[] = innovationnews
 projects[] = insert
 projects[] = mimemail
-projects[] = nice_menus
-projects[] = node_relationships
+projects[nice_menus][version] = 1.3
+projects[] = noderelationships
 projects[] = prepopulate
 projects[] = quiz
 projects[] = search404
@@ -35,7 +34,7 @@ projects[] = uploadpath
 projects[] = variable_dump
 projects[] = views_slideshow_imageflow
 projects[] = votingapi
-projects[] = xml2kml
+;projects[] = xml2kml
 
 projects[] = admin
 projects[] = advanced_help
@@ -115,8 +114,8 @@ projects[wysiwyg][version] = 2.x-dev
 projects[] = wysiwyg_imageupload
 projects[] = xmlsitemap
 
-projects[] = zen
-projects[] = zen_ninesixty
+projects[zen][version] = 1.1
+projects[zen_ninesixty][version] = 4.3
 
 projects[eng01][type] = "theme"
 projects[eng01][download][type] = "git"
