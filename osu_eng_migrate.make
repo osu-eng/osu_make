@@ -119,9 +119,17 @@ projects[] = xmlsitemap
 projects[zen][version] = 1.1
 projects[zen_ninesixty][version] = 4.3
 
+projects[jobline][type] = "module"
+projects[jobline][download][type] = "git"
+projects[jobline][download][url] = "git@code.web.engadmin.ohio-state.edu:jobline.git"
+
 projects[eng01][type] = "theme"
 projects[eng01][download][type] = "git"
 projects[eng01][download][url] = "git@code.web.engadmin.ohio-state.edu:eng01.git"
+
+projects[ece01][type] = "theme"
+projects[ece01][download][type] = "git"
+projects[ece01][download][url] = "git@code.web.engadmin.ohio-state.edu:ece01.git"
 
 projects[osu_eng_migrate][type] = "module"
 projects[osu_eng_migrate][download][type] = "git"
