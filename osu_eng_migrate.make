@@ -123,6 +123,10 @@ projects[jobline][type] = "module"
 projects[jobline][download][type] = "git"
 projects[jobline][download][url] = "git@code.web.engadmin.ohio-state.edu:jobline.git"
 
+projects[careerfair][type] = "module"
+projects[careerfair][download][type] = "git"
+projects[careerfair][download][url] = "git@code.web.engadmin.ohio-state.edu:careerfair.git"
+
 projects[eng01][type] = "theme"
 projects[eng01][download][type] = "git"
 projects[eng01][download][url] = "git@code.web.engadmin.ohio-state.edu:eng01.git"
@@ -130,6 +134,14 @@ projects[eng01][download][url] = "git@code.web.engadmin.ohio-state.edu:eng01.git
 projects[ece01][type] = "theme"
 projects[ece01][download][type] = "git"
 projects[ece01][download][url] = "git@code.web.engadmin.ohio-state.edu:ece01.git"
+
+projects[expo][type] = "theme"
+projects[expo][download][type] = "git"
+projects[expo][download][url] = "git@code.web.engadmin.ohio-state.edu:expo.git"
+
+projects[swe][type] = "theme"
+projects[swe][download][type] = "git"
+projects[swe][download][url] = "git@code.web.engadmin.ohio-state.edu:swe.git"
 
 projects[osu_eng_migrate][type] = "module"
 projects[osu_eng_migrate][download][type] = "git"
