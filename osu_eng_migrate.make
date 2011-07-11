@@ -207,6 +207,14 @@ projects[osupeople][type] = "module"
 projects[osupeople][download][type] = "git"
 projects[osupeople][download][url] = "git@code.web.engadmin.ohio-state.edu:osupeople.git"
 
+projects[osu_people_feature][type] = "module"
+projects[osu_people_feature][download][type] = "git"
+projects[osu_people_feature][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_people_feature.git"
+
+projects[rr404][type] = "module"
+projects[rr404][download][type] = "git"
+projects[rr404][download][url] = "git@code.web.engadmin.ohio-state.edu:rr404.git"
+
 projects[edsync][type] = "module"
 projects[edsync][download][type] = "git"
 projects[edsync][download][url] = "git@code.web.engadmin.ohio-state.edu:edsync.git"
