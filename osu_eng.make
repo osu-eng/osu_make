@@ -72,7 +72,7 @@ projects[] = themer
 projects[] = token
 projects[] = transliteration
 projects[] = userprotect
-projects[] = vertical_tabs 
+; projects[] = vertical_tabs 
 ;[patch][] = "http://drupal.org/files/issues/fragment-D6.patch"
 projects[] = video_filter
 projects[] = views
@@ -83,6 +83,10 @@ projects[] = workflow
 projects[] = wysiwyg
 projects[] = wysiwyg_imageupload
 projects[] = xmlsitemap
+
+projects[vertical_tabs][type] = "module"
+projects[vertical_tabs][download][type] = "git"
+projects[vertical_tabs][download][url] = "git@code.web.engadmin.ohio-state.edu:vertical_tabs.git"
 
 projects[jquery_ui][type] = "module"
 projects[jquery_ui][download][type] = "git"
