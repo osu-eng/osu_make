@@ -59,6 +59,7 @@ projects[] = pathologic
 projects[] = rules
 projects[] = securepages
 projects[] = semanticviews
+projects[] = sentry_client
 projects[shib_auth][version] = 3.3
 projects[] = signup
 projects[] = sitedir_migrate
