@@ -81,7 +81,7 @@ projects[] = views_slideshow
 projects[] = webform
 projects[] = workflow
 projects[] = wysiwyg
-projects[] = wysiwyg_imageupload
+;projects[] = wysiwyg_imageupload
 projects[] = xmlsitemap
 
 projects[vertical_tabs][type] = "module"
@@ -95,6 +95,10 @@ projects[jquery_ui][download][url] = "git@code.web.engadmin.ohio-state.edu:jquer
 projects[wysiwyg_imageupload_extra_fields][type] = "module"
 projects[wysiwyg_imageupload_extra_fields][download][type] = "git"
 projects[wysiwyg_imageupload_extra_fields][download][url] = "git@code.web.engadmin.ohio-state.edu:wysiwyg_imageupload_extra_fields.git"
+
+projects[wysiwyg_imageupload][type] = "module"
+projects[wysiwyg_imageupload][download][type] = "git"
+projects[wysiwyg_imageupload][download][url] = "git@code.web.engadmin.ohio-state.edu:wysiwyg_imageupload.git"
 
 projects[appearance][type] = "module"
 projects[appearance][download][type] = "git"
