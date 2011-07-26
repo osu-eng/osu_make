@@ -203,6 +203,18 @@ projects[site_information][type] = "module"
 projects[site_information][download][type] = "git"
 projects[site_information][download][url] = "git@code.web.engadmin.ohio-state.edu:site_information.git"
 
+projects[ldap_groups][type] = "module"
+projects[ldap_groups][download][type] = "git"
+projects[ldap_groups][download][url] = "git@code.web.engadmin.ohio-state.edu:ldap_groups.git"
+
+projects[edash][type] = "module"
+projects[edash][download][type] = "git"
+projects[edash][download][url] = "git@code.web.engadmin.ohio-state.edu:edash.git"
+
+projects[rotating_banner][type] = "module"
+projects[rotating_banner][download][type] = "git"
+projects[rotating_banner][download][url] = "git@code.web.engadmin.ohio-state.edu:rotating_banner.git"
+
 projects[gachart][type] = "module"
 projects[gachart][download][type] = "git"
 projects[gachart][download][url] = "git@code.web.engadmin.ohio-state.edu:gachart.git"
