@@ -1,8 +1,17 @@
+; OSU College of Engineering 
+; Migration / Legacy Platform
+; 9-27-2011
+
+;
+; Drupal Core
+;
 core = 6.x
 api=2
 projects[] = drupal
 
-; things that are more transitory, need to be phased out
+;
+; Legacy Modules
+;
 ; projects[admin_menu][version] = 1.7
 projects[] = admin_menu
 projects[] = adminrole
@@ -36,6 +45,9 @@ projects[] = views_slideshow_imageflow
 projects[] = votingapi
 ;projects[] = xml2kml
 
+;
+; Standard Modules
+;
 projects[] = admin
 projects[] = advanced_help
 projects[] = backup_migrate
@@ -119,14 +131,15 @@ projects[] = wysiwyg
 ;projects[] = wysiwyg_imageupload
 projects[] = xmlsitemap
 
+;
+; Legacy Internally Hosted Modules
+;
+projects[osu_eng_migrate][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[rr404][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 
-projects[vertical_tabs][type] = "module"
-projects[vertical_tabs][download][type] = "git"
-projects[vertical_tabs][download][url] = "git@code.web.engadmin.ohio-state.edu:vertical_tabs.git"
-
-projects[zen][version] = 1.1
-projects[zen_ninesixty][version] = 4.3
-
+;
+; Legacy Internal Git Repositories
+;
 projects[jobline][type] = "module"
 projects[jobline][download][type] = "git"
 projects[jobline][download][url] = "git@code.web.engadmin.ohio-state.edu:jobline.git"
@@ -134,26 +147,6 @@ projects[jobline][download][url] = "git@code.web.engadmin.ohio-state.edu:jobline
 projects[careerfair][type] = "module"
 projects[careerfair][download][type] = "git"
 projects[careerfair][download][url] = "git@code.web.engadmin.ohio-state.edu:careerfair.git"
-
-projects[eng01][type] = "theme"
-projects[eng01][download][type] = "git"
-projects[eng01][download][url] = "git@code.web.engadmin.ohio-state.edu:eng01.git"
-
-projects[ece01][type] = "theme"
-projects[ece01][download][type] = "git"
-projects[ece01][download][url] = "git@code.web.engadmin.ohio-state.edu:ece01.git"
-
-projects[expo][type] = "theme"
-projects[expo][download][type] = "git"
-projects[expo][download][url] = "git@code.web.engadmin.ohio-state.edu:expo.git"
-
-projects[swe][type] = "theme"
-projects[swe][download][type] = "git"
-projects[swe][download][url] = "git@code.web.engadmin.ohio-state.edu:swe.git"
-
-projects[osu_eng_migrate][type] = "module"
-projects[osu_eng_migrate][download][type] = "git"
-projects[osu_eng_migrate][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_eng_migrate.git"
 
 projects[news_feature][type] = "module"
 projects[news_feature][download][type] = "git"
@@ -179,147 +172,98 @@ projects[stdpkg][type] = "module"
 projects[stdpkg][download][type] = "git"
 projects[stdpkg][download][url] = "git@code.web.engadmin.ohio-state.edu:stdpkg.git"
 
-projects[
+projects[osu_people_feature][type] = "module"
+projects[osu_people_feature][download][type] = "git"
+projects[osu_people_feature][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_people_feature.git"
 
-; End used by legacy platform
+;
+; Internally Hosted Modules
+;
+projects[wysiwyg_imageupload_extra_fields][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[wysiwyg_imageupload][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[appearance][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[site_information][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[ldap_groups][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[edash][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[rotating_banner][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[gachart][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[menu_banner][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[osupro][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[osupeople][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[osu_admin][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[osu_admin_eng][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[osu_format_eng][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[osu_wysiwyg_eng][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[osu_page][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[osu_page_eng][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[osu_news][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[osu_news_eng][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[osu_event][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[osu_event_eng][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[osu_image_eng][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+
+;
+; Internal Git Repositories
+;
+projects[edsync][type] = "module"
+projects[edsync][download][type] = "git"
+projects[edsync][download][url] = "git@code.web.engadmin.ohio-state.edu:edsync.git"
+projects[edsync][download][branch] = "6.x-1.x"
+
+projects[edsync_osu][type] = "module"
+projects[edsync_osu][download][type] = "git"
+projects[edsync_osu][download][url] = "git@code.web.engadmin.ohio-state.edu:edsync_osu.git"
+projects[edsync_osu][download][branch] = "6.x-1.x"
+
+projects[vertical_tabs][type] = "module"
+projects[vertical_tabs][download][type] = "git"
+projects[vertical_tabs][download][url] = "git@code.web.engadmin.ohio-state.edu:vertical_tabs.git"
+projects[vertical_tabs][download][branch] = "6.x-1.x"
 
 projects[jquery_ui][type] = "module"
 projects[jquery_ui][download][type] = "git"
 projects[jquery_ui][download][url] = "git@code.web.engadmin.ohio-state.edu:jquery_ui.git"
 
-projects[wysiwyg_imageupload_extra_fields][type] = "module"
-projects[wysiwyg_imageupload_extra_fields][download][type] = "git"
-projects[wysiwyg_imageupload_extra_fields][download][url] = "git@code.web.engadmin.ohio-state.edu:wysiwyg_imageupload_extra_fields.git"
-
-projects[wysiwyg_imageupload][type] = "module"
-projects[wysiwyg_imageupload][download][type] = "git"
-projects[wysiwyg_imageupload][download][url] = "git@code.web.engadmin.ohio-state.edu:wysiwyg_imageupload.git"
-
-projects[appearance][type] = "module"
-projects[appearance][download][type] = "git"
-projects[appearance][download][url] = "git@code.web.engadmin.ohio-state.edu:appearance.git"
-
-projects[site_information][type] = "module"
-projects[site_information][download][type] = "git"
-projects[site_information][download][url] = "git@code.web.engadmin.ohio-state.edu:site_information.git"
-
-projects[ldap_groups][type] = "module"
-projects[ldap_groups][download][type] = "git"
-projects[ldap_groups][download][url] = "git@code.web.engadmin.ohio-state.edu:ldap_groups.git"
-
-projects[edash][type] = "module"
-projects[edash][download][type] = "git"
-projects[edash][download][url] = "git@code.web.engadmin.ohio-state.edu:edash.git"
-
-projects[rotating_banner][type] = "module"
-projects[rotating_banner][download][type] = "git"
-projects[rotating_banner][download][url] = "git@code.web.engadmin.ohio-state.edu:rotating_banner.git"
-
-projects[gachart][type] = "module"
-projects[gachart][download][type] = "git"
-projects[gachart][download][url] = "git@code.web.engadmin.ohio-state.edu:gachart.git"
-
-projects[menu_banner][type] = "module"
-projects[menu_banner][download][type] = "git"
-projects[menu_banner][download][url] = "git@code.web.engadmin.ohio-state.edu:menu_banner.git"
-
-projects[osupro][type] = "module"
-projects[osupro][download][type] = "git"
-projects[osupro][download][url] = "git@code.web.engadmin.ohio-state.edu:osupro.git"
-
-projects[osupeople][type] = "module"
-projects[osupeople][download][type] = "git"
-projects[osupeople][download][url] = "git@code.web.engadmin.ohio-state.edu:osupeople.git"
-
-projects[osu_people_feature][type] = "module"
-projects[osu_people_feature][download][type] = "git"
-projects[osu_people_feature][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_people_feature.git"
-
-projects[rr404][type] = "module"
-projects[rr404][download][type] = "git"
-projects[rr404][download][url] = "git@code.web.engadmin.ohio-state.edu:rr404.git"
-
-projects[edsync][type] = "module"
-projects[edsync][download][type] = "git"
-projects[edsync][download][url] = "git@code.web.engadmin.ohio-state.edu:edsync.git"
-
-projects[edsync_osu][type] = "module"
-projects[edsync_osu][download][type] = "git"
-projects[edsync_osu][download][url] = "git@code.web.engadmin.ohio-state.edu:edsync_osu.git"
-
 projects[osu_courses_feature][type] = "module"
 projects[osu_courses_feature][download][type] = "git"
 projects[osu_courses_feature][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_courses_feature.git"
-
-projects[icl][type] = "module"
-projects[icl][download][type] = "git"
-projects[icl][download][url] = "git@code.web.engadmin.ohio-state.edu:icl.git"
-projects[] = active_tags
-projects[] = auto_nodetitle
-projects[] = content_taxonomy
-projects[] = module_grants
-projects[] = revisioning
-
-
-projects[osu_admin][type] = "module"
-projects[osu_admin][download][type] = "git"
-projects[osu_admin][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_admin.git"
-
-projects[osu_admin_eng][type] = "module"
-projects[osu_admin_eng][download][type] = "git"
-projects[osu_admin_eng][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_admin_eng.git"
 
 projects[osu_auth_eng][type] = "module"
 projects[osu_auth_eng][download][type] = "git"
 projects[osu_auth_eng][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_auth_eng.git"
 
-projects[osu_format_eng][type] = "module"
-projects[osu_format_eng][download][type] = "git"
-projects[osu_format_eng][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_format_eng.git"
+;
+; Themes
+;
+projects[breadandbutter][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[breadandbutter][version] = 1.1
 
-projects[osu_wysiwyg_eng][type] = "module"
-projects[osu_wysiwyg_eng][download][type] = "git"
-projects[osu_wysiwyg_eng][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_wysiwyg_eng.git"
+projects[eng01][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 
-projects[osu_page][type] = "module"
-projects[osu_page][download][type] = "git"
-projects[osu_page][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_page.git"
+projects[eng02][type] = "theme"
+projects[eng02][download][type] = "git"
+projects[eng02][download][url] = "git@code.web.engadmin.ohio-state.edu:eng02.git"
 
+projects[ece01][type] = "theme"
+projects[ece01][download][type] = "git"
+projects[ece01][download][url] = "git@code.web.engadmin.ohio-state.edu:ece01.git"
 
-projects[osu_page_eng][type] = "module"
-projects[osu_page_eng][download][type] = "git"
-projects[osu_page_eng][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_page_eng.git"
+projects[expo][type] = "theme"
+projects[expo][download][type] = "git"
+projects[expo][download][url] = "git@code.web.engadmin.ohio-state.edu:expo.git"
+projects[expo][download][branch] = "6.x-1.x"
 
-projects[osu_news][type] = "module"
-projects[osu_news][download][type] = "git"
-projects[osu_news][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_news.git"
+projects[swe][type] = "theme"
+projects[swe][download][type] = "git"
+projects[swe][download][url] = "git@code.web.engadmin.ohio-state.edu:swe.git"
+projects[swe][download][branch] = "6.x-1.x"
 
-projects[osu_news_eng][type] = "module"
-projects[osu_news_eng][download][type] = "git"
-projects[osu_news_eng][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_news_eng.git"
+projects[zen][version] = 1.1
+projects[zen_ninesixty][version] = 4.3
 
-projects[osu_event][type] = "module"
-projects[osu_event][download][type] = "git"
-projects[osu_event][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_event.git"
-
-projects[osu_event_eng][type] = "module"
-projects[osu_event_eng][download][type] = "git"
-projects[osu_event_eng][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_event_eng.git"
-
-projects[osu_image_eng][type] = "module"
-projects[osu_image_eng][download][type] = "git"
-projects[osu_image_eng][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_image_eng.git"
-
-
-projects[breadandbutter][type] = "theme"
-projects[breadandbutter][download][type] = "git"
-projects[breadandbutter][download][url] = "git@code.web.engadmin.ohio-state.edu:breadandbutter.git"
-
-projects[osu_eng][type] = "profile"
-projects[osu_eng][download][type] = "git"
-projects[osu_eng][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_eng.git"
-
-
+;
+; Libraries
+;
 libraries[ckeditor][download][type]= "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6/ckeditor_3.6.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
@@ -330,5 +274,20 @@ libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlp
 libraries[htmlpurifier][directory_name] = "htmlpurifier"
 libraries[htmlpurifier][destination] = "libraries"
 
+;
+; Installation Profiles
+;
+projects[osu_eng][type] = "profile"
+projects[osu_eng][download][type] = "git"
+projects[osu_eng][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_eng.git"
 
+;
+; ICL Project Modules
+;
+projects[icl][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[] = active_tags
+projects[] = auto_nodetitle
+projects[] = content_taxonomy
+projects[] = module_grants
+projects[] = revisioning
 
