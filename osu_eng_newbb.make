@@ -150,6 +150,7 @@ projects[osu_courses_feature][download][url] = "git@code.web.engadmin.ohio-state
 projects[osu_auth_eng][type] = "module"
 projects[osu_auth_eng][download][type] = "git"
 projects[osu_auth_eng][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_auth_eng.git"
+projects[osu_auth_eng][download][branch] = "6.x-1.x"
 
 projects[km][type] = "module"
 projects[km][download][type] = "git"
@@ -163,7 +164,7 @@ projects[km_directory][download][branch] = "6.x-1.x"
 
 libraries[kmphp][download][type] = "git"
 libraries[kmphp][download][url] = "git@code.web.engadmin.ohio-state.edu:kmphp.git"
-libraries[kmphp][download][branch] = "6.x-1.x"
+libraries[kmphp][download][branch] = "1.x"
 libraries[kmphp][directory_name] = "kmphp"
 libraries[kmphp][destination] = "libraries"
 
