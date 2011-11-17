@@ -146,6 +146,7 @@ projects[jquery_ui][download][url] = "git@code.web.engadmin.ohio-state.edu:jquer
 projects[osu_courses_feature][type] = "module"
 projects[osu_courses_feature][download][type] = "git"
 projects[osu_courses_feature][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_courses_feature.git"
+projects[osu_courses_feature][download][branch] = "6.x-1.x"
 
 projects[osu_auth_eng][type] = "module"
 projects[osu_auth_eng][download][type] = "git"
