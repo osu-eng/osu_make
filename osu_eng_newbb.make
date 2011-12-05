@@ -173,6 +173,7 @@ libraries[kmphp][destination] = "libraries"
 ; Themes
 ;
 projects[breadandbutter][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[breadandbutter][version] = "1.x-dev"
 
 ;
 ; Libraries
