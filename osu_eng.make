@@ -1,6 +1,6 @@
 ; OSU College of Engineering
-; Standard Platform (Extended)
-; This builds the extended version of our standard platform.
+; Standard Platform 
+; This builds our standard platform.
 ; This makefile is included by the merged make file.
 
 ;
