@@ -14,18 +14,19 @@ projects[] = drupal
 ; Standard Modules
 ;
 projects[] = admin
+projects[ahah_helper][version] = 2.2
+projects[ahah_helper][patch][] = "http://drupal.org/files/issues/1231140.ahah_helper.form-submit-handler.patch"
 projects[] = better_formats
 projects[] = cck
+projects[] = ckeditor_link
 projects[] = css_gzip
 projects[] = css_injector
 projects[] = ctools
 projects[] = date
 projects[] = diff
-projects[] = email
 projects[] = features
 projects[] = filefield
 projects[] = filter_perms
-projects[] = gmap
 projects[] = google_analytics
 projects[] = htmlpurifier
 projects[] = imageapi
@@ -45,7 +46,7 @@ projects[] = jquery_ui_dialog
 projects[] = jquery_update
 projects[] = libraries
 projects[] = lightbox2
-projects[] = linkit
+projects[] = link
 projects[] = linkchecker
 projects[] = location
 projects[] = masquerade
@@ -85,6 +86,8 @@ projects[] = xmlsitemap
 ;projects[] = devel
 ;projects[] = emfield
 ;projects[] = extlink
+;projects[] = email
+;projects[] = gmap
 ;projects[] = imagecache_actions
 ;projects[] = link
 ;projects[] = menu_block
@@ -98,6 +101,8 @@ projects[] = xmlsitemap
 ;projects[] = taxonomy_menu
 ;projects[] = themer
 ;projects[] = workflow
+;projects[menu_banner][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+
 
 ;
 ; Internally Hosted Modules
@@ -108,11 +113,8 @@ projects[appearance][location] = "http://updates.web.engadmin.ohio-state.edu/rel
 projects[site_information][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[ldap_groups][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[edash][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
-projects[rotating_banner][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[headers][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[gachart][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
-projects[menu_banner][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
-projects[osupro][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
-projects[osupeople][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[osu_admin][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[osu_admin_eng][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[osu_format_eng][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
