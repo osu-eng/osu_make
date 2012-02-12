@@ -15,7 +15,7 @@ projects[] = drupal
 ;
 projects[] = admin
 projects[ahah_helper][version] = 2.2
-projects[ahah_helper][patch][] = "http://drupal.org/files/issues/1231140.ahah_helper.form-submit-handler.patch"
+projects[ahah_helper][patch][] = "http://drupal.org/files/ahah_helper-submit-1231140-12.patch"
 projects[] = better_formats
 projects[] = cck
 projects[] = ckeditor_link
