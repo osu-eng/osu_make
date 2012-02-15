@@ -126,6 +126,8 @@ projects[osu_news_eng][location] = "http://updates.web.engadmin.ohio-state.edu/r
 projects[osu_event][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[osu_event_eng][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[osu_image_eng][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[shib_conditional_rules][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[provision_roles][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 
 ;
 ; Internal Git Repositories
