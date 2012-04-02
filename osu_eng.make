@@ -103,7 +103,7 @@ projects[] = xmlsitemap
 ;projects[] = taxonomy_menu
 ;projects[] = themer
 ;projects[] = workflow
-;projects[menu_banner][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[menu_banner][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 
 
 ;
