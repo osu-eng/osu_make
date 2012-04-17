@@ -116,6 +116,7 @@ projects[site_information][location] = "http://updates.web.engadmin.ohio-state.e
 projects[ldap_groups][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[edash][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[headers][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[headers][version] = 1.x-dev
 projects[gachart][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[osu_admin][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[osu_admin_eng][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
