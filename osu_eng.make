@@ -81,15 +81,16 @@ projects[] = xmlsitemap
 ;
 ; Candidates to be Cut
 ;
-;projects[] = advanced_help
-;projects[] = backup_migrate
+projects[] = advanced_help
+projects[] = backup_migrate
 ;projects[backup_migrate_files][version] = 1.x-dev
 ;projects[coder][version] = 2.x-dev
 ;projects[] = devel
-;projects[] = emfield
+projects[] = better_exposed_filters
+projects[] = emfield
 ;projects[] = extlink
-;projects[] = email
-;projects[] = gmap
+projects[] = email
+projects[] = gmap
 ;projects[] = imagecache_actions
 ;projects[] = link
 ;projects[] = menu_block
@@ -99,11 +100,13 @@ projects[] = xmlsitemap
 ;projects[] = sitedir_migrate
 ;projects[] = slideshowcs
 ;projects[] = stringoverrides
-;projects[] = table_altrow
+projects[] = table_altrow
 ;projects[] = taxonomy_menu
 ;projects[] = themer
 ;projects[] = workflow
-;projects[menu_banner][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[osupro][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[osupeople][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[menu_banner][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 
 
 ;
