@@ -108,7 +108,6 @@ projects[osupro][location] = "http://updates.web.engadmin.ohio-state.edu/release
 projects[osupeople][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[menu_banner][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 
-
 ;
 ; Internally Hosted Modules
 ;
@@ -134,6 +133,7 @@ projects[osu_event_eng][location] = "http://updates.web.engadmin.ohio-state.edu/
 projects[osu_image_eng][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[shib_conditional_rules][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[provision_roles][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[central_help][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 
 ;
 ; Internal Git Repositories
