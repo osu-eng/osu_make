@@ -81,7 +81,7 @@ projects[] = xmlsitemap
 ;
 ; Candidates to be Cut
 ;
-projects[] = advanced_help
+;projects[] = advanced_help
 projects[] = backup_migrate
 ;projects[backup_migrate_files][version] = 1.x-dev
 ;projects[coder][version] = 2.x-dev
