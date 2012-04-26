@@ -44,6 +44,7 @@ projects[] = imce_wysiwyg
 projects[insert_block][version] = 1.x-dev
 projects[insert_view][version] = 2.x-dev
 projects[] = javascript_aggregator
+projects[] = jquery_ui
 projects[] = jquery_ui_dialog
 projects[] = jquery_update
 projects[] = libraries
@@ -150,10 +151,6 @@ projects[edsync_osu][download][type] = "git"
 projects[edsync_osu][download][url] = "git@code.web.engadmin.ohio-state.edu:edsync_osu.git"
 projects[edsync_osu][download][branch] = "6.x-1.x"
 
-projects[jquery_ui][type] = "module"
-projects[jquery_ui][download][type] = "git"
-projects[jquery_ui][download][url] = "git@code.web.engadmin.ohio-state.edu:jquery_ui.git"
-
 projects[osu_courses_feature][type] = "module"
 projects[osu_courses_feature][download][type] = "git"
 projects[osu_courses_feature][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_courses_feature.git"
@@ -174,12 +171,6 @@ projects[km_directory][download][type] = "git"
 projects[km_directory][download][url] = "git@code.web.engadmin.ohio-state.edu:km_directory.git"
 projects[km_directory][download][branch] = "6.x-1.x"
 
-libraries[kmphp][download][type] = "git"
-libraries[kmphp][download][url] = "git@code.web.engadmin.ohio-state.edu:kmphp.git"
-libraries[kmphp][download][branch] = "1.x"
-libraries[kmphp][directory_name] = "kmphp"
-libraries[kmphp][destination] = "libraries"
-
 ;
 ; Themes
 ;
@@ -197,6 +188,17 @@ libraries[htmlpurifier][download][type]= "get"
 libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.4.0.zip"
 libraries[htmlpurifier][directory_name] = "htmlpurifier"
 libraries[htmlpurifier][destination] = "libraries"
+
+libraries[jquery.ui][download][type]= "get"
+libraries[jquery.ui][download][url] = "http://jqueryui.com/download/jquery-ui-1.7.3.custom.zip"
+libraries[jquery.ui][directory_name] = "jquery.ui"
+libraries[jquery.ui][destination] = "libraries"
+
+libraries[kmphp][download][type] = "git"
+libraries[kmphp][download][url] = "git@code.web.engadmin.ohio-state.edu:kmphp.git"
+libraries[kmphp][download][branch] = "1.x"
+libraries[kmphp][directory_name] = "kmphp"
+libraries[kmphp][destination] = "libraries"
 
 ;
 ; Installation Profiles
