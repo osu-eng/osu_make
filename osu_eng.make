@@ -8,7 +8,7 @@
 ;
 core = 6.x
 api=2
-projects[drupal][patch][] = "http://code.web.engadmin.ohio-state.edu/osu_eng_patch.git/blob_plain/refs/heads/6.x-1.x:/drupal-trim.patch"
+projects[drupal][patch][] = "http://code.web.engadmin.ohio-state.edu/osu_eng_patch.git/blob_plain/refs/heads/6.x-1.x:/remove-default-profile.patch"
 
 ;
 ; Standard Modules
