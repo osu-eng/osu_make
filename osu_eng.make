@@ -189,7 +189,7 @@ libraries[htmlpurifier][directory_name] = "htmlpurifier"
 libraries[htmlpurifier][destination] = "libraries"
 
 libraries[jquery.ui][download][type]= "get"
-libraries[jquery.ui][download][url] = "http://jqueryui.com/download/jquery-ui-1.7.3.custom.zip"
+libraries[jquery.ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery-ui-1.7.3.zip"
 libraries[jquery.ui][directory_name] = "jquery.ui"
 libraries[jquery.ui][destination] = "libraries"
 
