@@ -17,10 +17,3 @@ projects[icl_profile][type] = "profile"
 projects[icl_profile][download][type] = "git"
 projects[icl_profile][download][url] = "git@code.web.engadmin.ohio-state.edu:icl_profile.git"
 projects[icl_profile][download][branch] = "6.x-1.x"
-
-
-; We have a tiny patch in vertical tabs
-projects[vertical_tabs][type] = "module"
-projects[vertical_tabs][download][type] = "git"
-projects[vertical_tabs][download][url] = "git@code.web.engadmin.ohio-state.edu:vertical_tabs.git"
-projects[vertical_tabs][download][branch] = "6.x-1.x"

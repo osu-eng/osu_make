@@ -70,7 +70,7 @@ projects[] = strongarm
 projects[] = token
 projects[] = transliteration
 projects[] = userprotect
-projects[] = vertical_tabs
+; projects[] = vertical_tabs patched below
 projects[] = video_filter
 projects[] = views
 projects[] = views_bulk_operations
@@ -169,6 +169,13 @@ projects[km_directory][type] = "module"
 projects[km_directory][download][type] = "git"
 projects[km_directory][download][url] = "git@code.web.engadmin.ohio-state.edu:km_directory.git"
 projects[km_directory][download][branch] = "6.x-1.x"
+
+
+; We have a tiny patch in vertical tabs
+projects[vertical_tabs][type] = "module"
+projects[vertical_tabs][download][type] = "git"
+projects[vertical_tabs][download][url] = "git@code.web.engadmin.ohio-state.edu:vertical_tabs.git"
+projects[vertical_tabs][download][branch] = "6.x-1.x"
 
 ;
 ; Themes
