@@ -8,7 +8,7 @@
 ;
 core = 6.x
 api=2
-projects[] = drupal
+projects[drupal][patch][] = "http://code.web.engadmin.ohio-state.edu/osu_eng_patch.git/blob_plain/refs/heads/6.x-1.x:/remove-default-profile.patch"
 
 ;
 ; Standard Modules
@@ -43,6 +43,7 @@ projects[] = imce_wysiwyg
 projects[insert_block][version] = 1.x-dev
 projects[insert_view][version] = 2.x-dev
 projects[] = javascript_aggregator
+projects[] = jquery_ui
 projects[] = jquery_ui_dialog
 projects[] = jquery_update
 projects[] = libraries
@@ -81,7 +82,7 @@ projects[] = xmlsitemap
 ;
 ; Candidates to be Cut
 ;
-projects[] = advanced_help
+;projects[] = advanced_help
 projects[] = backup_migrate
 ;projects[backup_migrate_files][version] = 1.x-dev
 ;projects[coder][version] = 2.x-dev
@@ -134,6 +135,7 @@ projects[osu_image_eng][location] = "http://updates.web.engadmin.ohio-state.edu/
 projects[shib_conditional_rules][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[provision_roles][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[central_help][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[central_help_eng][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 
 ;
 ; Internal Git Repositories
@@ -147,10 +149,6 @@ projects[edsync_osu][type] = "module"
 projects[edsync_osu][download][type] = "git"
 projects[edsync_osu][download][url] = "git@code.web.engadmin.ohio-state.edu:edsync_osu.git"
 projects[edsync_osu][download][branch] = "6.x-1.x"
-
-projects[jquery_ui][type] = "module"
-projects[jquery_ui][download][type] = "git"
-projects[jquery_ui][download][url] = "git@code.web.engadmin.ohio-state.edu:jquery_ui.git"
 
 projects[osu_courses_feature][type] = "module"
 projects[osu_courses_feature][download][type] = "git"
@@ -172,12 +170,6 @@ projects[km_directory][download][type] = "git"
 projects[km_directory][download][url] = "git@code.web.engadmin.ohio-state.edu:km_directory.git"
 projects[km_directory][download][branch] = "6.x-1.x"
 
-libraries[kmphp][download][type] = "git"
-libraries[kmphp][download][url] = "git@code.web.engadmin.ohio-state.edu:kmphp.git"
-libraries[kmphp][download][branch] = "1.x"
-libraries[kmphp][directory_name] = "kmphp"
-libraries[kmphp][destination] = "libraries"
-
 ;
 ; Themes
 ;
@@ -195,6 +187,17 @@ libraries[htmlpurifier][download][type]= "get"
 libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.4.0.zip"
 libraries[htmlpurifier][directory_name] = "htmlpurifier"
 libraries[htmlpurifier][destination] = "libraries"
+
+libraries[jquery.ui][download][type]= "get"
+libraries[jquery.ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery-ui-1.7.3.zip"
+libraries[jquery.ui][directory_name] = "jquery.ui"
+libraries[jquery.ui][destination] = "libraries"
+
+libraries[kmphp][download][type] = "git"
+libraries[kmphp][download][url] = "git@code.web.engadmin.ohio-state.edu:kmphp.git"
+libraries[kmphp][download][branch] = "1.x"
+libraries[kmphp][directory_name] = "kmphp"
+libraries[kmphp][destination] = "libraries"
 
 ;
 ; Installation Profiles
