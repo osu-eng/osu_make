@@ -12,7 +12,6 @@ projects[] = drupal
 ;
 ; Legacy Modules
 ;
-; projects[admin_menu][version] = 1.7
 projects[] = admin_menu
 projects[] = adminrole
 projects[] = better_exposed_filters
@@ -28,6 +27,7 @@ projects[] = image
 projects[] = innovationnews
 projects[] = insert
 projects[] = mimemail
+projects[] = jquery_ui
 projects[nice_menus][version] = 1.3
 projects[] = noderelationships
 projects[] = prepopulate
@@ -44,7 +44,7 @@ projects[] = variable_dump
 projects[] = views_slideshow_imageflow
 projects[] = votingapi
 ;projects[] = xml2kml
-
+projects[] = performance
 ;
 ; Standard Modules
 ;
@@ -75,7 +75,7 @@ projects[imagebrowser][version] = 2.x-dev
 projects[] = imagecache
 projects[] = imagecache_actions
 projects[] = imagefield
-projects[imagefield_crop][version] = 1.x-dev
+projects[] = imagefield_crop
 projects[] = imagefield_extended
 projects[] = image_resize_filter
 projects[] = imce
@@ -124,12 +124,14 @@ projects[] = userprotect
 projects[] = video_filter
 projects[] = views
 projects[] = views_bulk_operations
-projects[] = views_slideshow
+projects[views_slideshow][version] = 2.3
 projects[] = webform
 projects[] = workflow
 projects[] = wysiwyg
 ;projects[] = wysiwyg_imageupload
 projects[] = xmlsitemap
+
+
 
 ;
 ; Legacy Internally Hosted Modules
@@ -151,26 +153,33 @@ projects[careerfair][download][url] = "git@code.web.engadmin.ohio-state.edu:care
 projects[news_feature][type] = "module"
 projects[news_feature][download][type] = "git"
 projects[news_feature][download][url] = "git@code.web.engadmin.ohio-state.edu:news_feature.git"
+projects[news_feature][download][branch] = "6.x-1.x"
+
 
 projects[page_feature][type] = "module"
 projects[page_feature][download][type] = "git"
 projects[page_feature][download][url] = "git@code.web.engadmin.ohio-state.edu:page_feature.git"
+;projects[page_feature][download][branch] = "6.x-1.x"
 
 projects[events_feature][type] = "module"
 projects[events_feature][download][type] = "git"
 projects[events_feature][download][url] = "git@code.web.engadmin.ohio-state.edu:events_feature.git"
+;projects[events_feature][download][branch] = "6.x-1.x"
 
 projects[user_activity_feature][type] = "module"
 projects[user_activity_feature][download][type] = "git"
 projects[user_activity_feature][download][url] = "git@code.web.engadmin.ohio-state.edu:user_activity_feature.git"
+;projects[user_activity_feature][download][branch] = "6.x-1.x"
 
 projects[imagecache_standard_presets_feature][type] = "module"
 projects[imagecache_standard_presets_feature][download][type] = "git"
 projects[imagecache_standard_presets_feature][download][url] = "git@code.web.engadmin.ohio-state.edu:imagecache_standard_presets_feature.git"
+;projects[imagecache_standard_presets_feature][download][branch] = "6.x-1.x"
 
 projects[stdpkg][type] = "module"
 projects[stdpkg][download][type] = "git"
 projects[stdpkg][download][url] = "git@code.web.engadmin.ohio-state.edu:stdpkg.git"
+;projects[stdpkg][download][branch] = "6.x-1.x"
 
 projects[osu_people_feature][type] = "module"
 projects[osu_people_feature][download][type] = "git"
@@ -220,13 +229,11 @@ projects[vertical_tabs][download][type] = "git"
 projects[vertical_tabs][download][url] = "git@code.web.engadmin.ohio-state.edu:vertical_tabs.git"
 projects[vertical_tabs][download][branch] = "6.x-1.x"
 
-projects[jquery_ui][type] = "module"
-projects[jquery_ui][download][type] = "git"
-projects[jquery_ui][download][url] = "git@code.web.engadmin.ohio-state.edu:jquery_ui.git"
 
 projects[osu_courses_feature][type] = "module"
 projects[osu_courses_feature][download][type] = "git"
 projects[osu_courses_feature][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_courses_feature.git"
+projects[osu_courses_feature][download][branch] = "6.x-1.x"
 
 projects[osu_auth_eng][type] = "module"
 projects[osu_auth_eng][download][type] = "git"
@@ -238,7 +245,10 @@ projects[osu_auth_eng][download][url] = "git@code.web.engadmin.ohio-state.edu:os
 projects[breadandbutter][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[breadandbutter][version] = 1.1
 
-projects[eng01][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[eng01][type] = "theme"
+projects[eng01][download][type] = "git"
+projects[eng01][download][url] = "git@code.web.engadmin.ohio-state.edu:eng01.git"
+projects[eng01][download][branch] = "6.x-1.x"
 
 projects[eng02][type] = "theme"
 projects[eng02][download][type] = "git"
@@ -270,9 +280,15 @@ libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
 libraries[htmlpurifier][download][type]= "get"
-libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.3.0.zip"
+libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.4.0.zip"
 libraries[htmlpurifier][directory_name] = "htmlpurifier"
 libraries[htmlpurifier][destination] = "libraries"
+
+
+libraries[jquery.ui][download][type]= "get"
+libraries[jquery.ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery-ui-1.7.3.zip"
+libraries[jquery.ui][directory_name] = "jquery.ui"
+libraries[jquery.ui][destination] = "libraries"
 
 ;
 ; Installation Profiles
@@ -280,14 +296,4 @@ libraries[htmlpurifier][destination] = "libraries"
 projects[osu_eng][type] = "profile"
 projects[osu_eng][download][type] = "git"
 projects[osu_eng][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_eng.git"
-
-;
-; ICL Project Modules
-;
-projects[icl][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
-projects[] = active_tags
-projects[] = auto_nodetitle
-projects[] = content_taxonomy
-projects[] = module_grants
-projects[] = revisioning
 

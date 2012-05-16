@@ -70,7 +70,7 @@ projects[] = strongarm
 projects[] = token
 projects[] = transliteration
 projects[] = userprotect
-projects[] = vertical_tabs
+; projects[] = vertical_tabs patched below
 projects[] = video_filter
 projects[] = views
 projects[] = views_bulk_operations
@@ -171,6 +171,28 @@ projects[km_directory][download][type] = "git"
 projects[km_directory][download][url] = "git@code.web.engadmin.ohio-state.edu:km_directory.git"
 projects[km_directory][download][branch] = "6.x-1.x"
 
+projects[km_icl][type] = "module"
+projects[km_icl][download][type] = "git"
+projects[km_icl][download][url] = "git@code.web.engadmin.ohio-state.edu:km_icl.git"
+projects[km_icl][download][branch] = "6.x-1.x"
+
+projects[km_icl_directory][type] = "module"
+projects[km_icl_directory][download][type] = "git"
+projects[km_icl_directory][download][url] = "git@code.web.engadmin.ohio-state.edu:km_icl_directory.git"
+projects[km_icl_directory][download][branch] = "6.x-1.x"
+
+projects[icl_shared][type] = "module"
+projects[icl_shared][download][type] = "git"
+projects[icl_shared][download][url] = "git@code.web.engadmin.ohio-state.edu:icl_shared.git"
+projects[icl_shared][download][branch] = "6.x-1.x"
+
+
+; We have a tiny patch in vertical tabs
+projects[vertical_tabs][type] = "module"
+projects[vertical_tabs][download][type] = "git"
+projects[vertical_tabs][download][url] = "git@code.web.engadmin.ohio-state.edu:vertical_tabs.git"
+projects[vertical_tabs][download][branch] = "6.x-1.x"
+
 ;
 ; Themes
 ;
@@ -199,6 +221,12 @@ libraries[kmphp][download][url] = "git@code.web.engadmin.ohio-state.edu:kmphp.gi
 libraries[kmphp][download][branch] = "1.x"
 libraries[kmphp][directory_name] = "kmphp"
 libraries[kmphp][destination] = "libraries"
+
+libraries[kmphp_icl][download][type] = "git"
+libraries[kmphp_icl][download][url] = "git@code.web.engadmin.ohio-state.edu:kmphp_icl.git"
+libraries[kmphp_icl][download][branch] = "1.x"
+libraries[kmphp_icl][directory_name] = "kmphp_icl"
+libraries[kmphp_icl][destination] = "libraries"
 
 ;
 ; Installation Profiles
