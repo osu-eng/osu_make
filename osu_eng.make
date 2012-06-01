@@ -3,6 +3,7 @@
 ; This builds our standard platform.
 ; This makefile is included by the merged make file.
 
+
 ;
 ; Drupal Core
 ;
@@ -10,10 +11,12 @@ core = 6.x
 api=2
 projects[drupal][patch][] = "http://code.web.engadmin.ohio-state.edu/osu_eng_patch.git/blob_plain/refs/heads/6.x-1.x:/remove-default-profile.patch"
 
+
 ;
 ; Standard Modules
 ;
 projects[] = admin
+projects[] = advanced_help
 projects[ahah_helper][version] = 2.2
 projects[ahah_helper][patch][] = "http://drupal.org/files/ahah_helper-submit-1231140-12.patch"
 projects[] = better_formats
@@ -79,10 +82,10 @@ projects[] = webform
 projects[] = wysiwyg
 projects[] = xmlsitemap
 
+
 ;
 ; Candidates to be Cut
 ;
-projects[] = advanced_help
 projects[] = backup_migrate
 ;projects[backup_migrate_files][version] = 1.x-dev
 ;projects[coder][version] = 2.x-dev
@@ -109,6 +112,7 @@ projects[osupro][location] = "http://updates.web.engadmin.ohio-state.edu/release
 projects[osupeople][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[menu_banner][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 
+
 ;
 ; Internally Hosted Modules
 ;
@@ -118,9 +122,19 @@ projects[appearance][location] = "http://updates.web.engadmin.ohio-state.edu/rel
 projects[site_information][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[ldap_groups][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[edash][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[gachart][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[headers][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[headers][version] = 1.x-dev
-projects[gachart][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[icl_shared][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[icl_shared][version] = 1.x-dev
+projects[km][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[km][version] = 1.x-dev
+projects[km_directory][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[km_directory][version] = 1.x-dev
+projects[km_icl][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[km_icl][version] = 1.x-dev
+projects[km_icl_directory][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[km_icl_directory][version] = 1.x-dev
 projects[osu_admin][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[osu_admin_eng][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[osu_format_eng][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
@@ -137,6 +151,7 @@ projects[shib_conditional_rules][location] = "http://updates.web.engadmin.ohio-s
 projects[provision_roles][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[central_help][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[central_help_eng][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+
 
 ;
 ; Internal Git Repositories
@@ -161,42 +176,18 @@ projects[osu_auth_eng][download][type] = "git"
 projects[osu_auth_eng][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_auth_eng.git"
 projects[osu_auth_eng][download][branch] = "6.x-1.x"
 
-projects[km][type] = "module"
-projects[km][download][type] = "git"
-projects[km][download][url] = "git@code.web.engadmin.ohio-state.edu:km.git"
-projects[km][download][branch] = "6.x-1.x"
-
-projects[km_directory][type] = "module"
-projects[km_directory][download][type] = "git"
-projects[km_directory][download][url] = "git@code.web.engadmin.ohio-state.edu:km_directory.git"
-projects[km_directory][download][branch] = "6.x-1.x"
-
-projects[km_icl][type] = "module"
-projects[km_icl][download][type] = "git"
-projects[km_icl][download][url] = "git@code.web.engadmin.ohio-state.edu:km_icl.git"
-projects[km_icl][download][branch] = "6.x-1.x"
-
-projects[km_icl_directory][type] = "module"
-projects[km_icl_directory][download][type] = "git"
-projects[km_icl_directory][download][url] = "git@code.web.engadmin.ohio-state.edu:km_icl_directory.git"
-projects[km_icl_directory][download][branch] = "6.x-1.x"
-
-projects[icl_shared][type] = "module"
-projects[icl_shared][download][type] = "git"
-projects[icl_shared][download][url] = "git@code.web.engadmin.ohio-state.edu:icl_shared.git"
-projects[icl_shared][download][branch] = "6.x-1.x"
-
-
 ; We have a tiny patch in vertical tabs
 projects[vertical_tabs][type] = "module"
 projects[vertical_tabs][download][type] = "git"
 projects[vertical_tabs][download][url] = "git@code.web.engadmin.ohio-state.edu:vertical_tabs.git"
 projects[vertical_tabs][download][branch] = "6.x-1.x"
 
+
 ;
 ; Themes
 ;
 projects[breadandbutter][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+
 
 ;
 ; Libraries
@@ -228,10 +219,10 @@ libraries[kmphp_icl][download][branch] = "1.x"
 libraries[kmphp_icl][directory_name] = "kmphp_icl"
 libraries[kmphp_icl][destination] = "libraries"
 
+
 ;
 ; Installation Profiles
 ;
-
 projects[osu_eng][type] = "profile"
 projects[osu_eng][download][type] = "git"
 projects[osu_eng][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_eng.git"
