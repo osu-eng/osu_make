@@ -190,6 +190,7 @@ projects[vertical_tabs][download][branch] = "6.x-1.x"
 ; Themes
 ;
 projects[breadandbutter][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[breadandbutter][version] = 1.x-dev
 
 
 ;
