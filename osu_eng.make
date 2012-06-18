@@ -61,6 +61,7 @@ projects[] = menutrails
 projects[] = modalframe
 projects[] = module_filter
 projects[] = override_node_options
+projects[] = view_unpublished
 projects[panels][patch][] = "http://drupal.org/files/issues/panels_ipe-886124.patch"
 projects[] = pathauto
 projects[] = path_redirect
