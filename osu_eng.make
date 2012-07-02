@@ -157,6 +157,7 @@ projects[provision_roles][location] = "http://updates.web.engadmin.ohio-state.ed
 projects[central_help][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[central_help_eng][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[widget][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
+projects[widget][version] = 1.x-dev
 
 
 ;
