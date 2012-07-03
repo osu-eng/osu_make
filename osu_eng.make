@@ -126,7 +126,6 @@ projects[ldap_groups][location] = "http://updates.web.engadmin.ohio-state.edu/re
 projects[edash][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[gachart][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[headers][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
-projects[headers][version] = 1.x-dev
 projects[icl_shared][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[icl_shared][version] = 1.x-dev
 projects[km][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
@@ -156,7 +155,6 @@ projects[provision_roles][location] = "http://updates.web.engadmin.ohio-state.ed
 projects[central_help][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[central_help_eng][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 projects[widget][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
-projects[widget][version] = 1.x-dev
 
 
 ;
@@ -193,7 +191,6 @@ projects[vertical_tabs][download][branch] = "6.x-1.x"
 ; Themes
 ;
 projects[breadandbutter][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
-projects[breadandbutter][version] = 1.x-dev
 
 
 ;
