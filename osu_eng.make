@@ -9,7 +9,9 @@
 ;
 core = 6.x
 api=2
-projects[drupal][patch][] = "http://code.web.engadmin.ohio-state.edu/osu_eng_patch.git/blob_plain/refs/heads/6.x-1.x:/remove-default-profile.patch"
+projects[] = drupal
+;projects[drupal][patch][] = "http://code.web.engadmin.ohio-state.edu/?p=project/osu_eng_patch.git;a=blob_plain;f=remove-default-profile.patch;h=a585035cb8ca0a31b7ecbc77153269eb46a5edf5;hb=2ba1bc0cac24b06cf8b2dc93ea6ed6ac8e737438"
+; "http://code.web.engadmin.ohio-state.edu/osu_eng_patch.git/blob_plain/refs/heads/6.x-1.x:/remove-default-profile.patch"
 
 
 ;
@@ -50,7 +52,7 @@ projects[insert_block][version] = 1.x-dev
 projects[insert_view][version] = 2.x-dev
 projects[] = javascript_aggregator
 projects[] = jquery_ui
-projects[] = jquery_ui_dialog
+projects[jquery_ui_dialog][version] = 1.10
 projects[] = jquery_update
 projects[] = libraries
 projects[] = lightbox2
@@ -162,28 +164,28 @@ projects[widget][location] = "http://updates.web.engadmin.ohio-state.edu/release
 ;
 projects[edsync][type] = "module"
 projects[edsync][download][type] = "git"
-projects[edsync][download][url] = "git@code.web.engadmin.ohio-state.edu:edsync.git"
+projects[edsync][download][url] = "git://code.web.engadmin.ohio-state.edu/project/edsync.git"
 projects[edsync][download][branch] = "6.x-1.x"
 
 projects[edsync_osu][type] = "module"
 projects[edsync_osu][download][type] = "git"
-projects[edsync_osu][download][url] = "git@code.web.engadmin.ohio-state.edu:edsync_osu.git"
+projects[edsync_osu][download][url] = "git://code.web.engadmin.ohio-state.edu/project/edsync_osu.git"
 projects[edsync_osu][download][branch] = "6.x-1.x"
 
 projects[osu_courses_feature][type] = "module"
 projects[osu_courses_feature][download][type] = "git"
-projects[osu_courses_feature][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_courses_feature.git"
+projects[osu_courses_feature][download][url] = "git://code.web.engadmin.ohio-state.edu/project/osu_courses_feature.git"
 projects[osu_courses_feature][download][branch] = "6.x-1.x"
 
 projects[osu_auth_eng][type] = "module"
 projects[osu_auth_eng][download][type] = "git"
-projects[osu_auth_eng][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_auth_eng.git"
+projects[osu_auth_eng][download][url] = "git://code.web.engadmin.ohio-state.edu/project/osu_auth_eng.git"
 projects[osu_auth_eng][download][branch] = "6.x-1.x"
 
 ; We have a tiny patch in vertical tabs
 projects[vertical_tabs][type] = "module"
 projects[vertical_tabs][download][type] = "git"
-projects[vertical_tabs][download][url] = "git@code.web.engadmin.ohio-state.edu:vertical_tabs.git"
+projects[vertical_tabs][download][url] = "git://code.web.engadmin.ohio-state.edu/project/vertical_tabs.git"
 projects[vertical_tabs][download][branch] = "6.x-1.x"
 
 
@@ -212,13 +214,13 @@ libraries[jquery.ui][directory_name] = "jquery.ui"
 libraries[jquery.ui][destination] = "libraries"
 
 libraries[kmphp][download][type] = "git"
-libraries[kmphp][download][url] = "git@code.web.engadmin.ohio-state.edu:kmphp.git"
+libraries[kmphp][download][url] = "git://code.web.engadmin.ohio-state.edu/project/kmphp.git"
 libraries[kmphp][download][branch] = "1.x"
 libraries[kmphp][directory_name] = "kmphp"
 libraries[kmphp][destination] = "libraries"
 
 libraries[kmphp_icl][download][type] = "git"
-libraries[kmphp_icl][download][url] = "git@code.web.engadmin.ohio-state.edu:kmphp_icl.git"
+libraries[kmphp_icl][download][url] = "git://code.web.engadmin.ohio-state.edu/project/kmphp_icl.git"
 libraries[kmphp_icl][download][branch] = "1.x"
 libraries[kmphp_icl][directory_name] = "kmphp_icl"
 libraries[kmphp_icl][destination] = "libraries"
@@ -229,5 +231,5 @@ libraries[kmphp_icl][destination] = "libraries"
 ;
 projects[osu_eng][type] = "profile"
 projects[osu_eng][download][type] = "git"
-projects[osu_eng][download][url] = "git@code.web.engadmin.ohio-state.edu:osu_eng.git"
+projects[osu_eng][download][url] = "git://code.web.engadmin.ohio-state.edu/project/osu_eng.git"
 

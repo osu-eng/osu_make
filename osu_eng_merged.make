@@ -14,25 +14,29 @@ projects[uc_zero_handler][location] = "http://updates.web.engadmin.ohio-state.ed
 ;projects[cybersource_hop][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 
 libraries[uc_cybersource][download][type]= "git"
-libraries[uc_cybersource][download][url] = "git@code.web.engadmin.ohio-state.edu:uc_cybersource_dummy.git"
+libraries[uc_cybersource][download][url] = "git://code.web.engadmin.ohio-state.edu/project/uc_cybersource_dummy.git"
 libraries[uc_cybersource][directory_name] = "uc_cybersource"
 libraries[uc_cybersource][destination] = "libraries"
 
-
+; Web website
+projects[dosu_site][type] = "module"
+projects[dosu_site][download][type] = "git"
+projects[dosu_site][download][url] = "git://code.web.engadmin.ohio-state.edu/project/dosu_site.git"
+projects[dosu_site][download][branch] = "6.x-1.x"
 
 ; Career Fair Stuff
 projects[cybersource_hop][type] = "module"
 projects[cybersource_hop][download][type] = "git"
-projects[cybersource_hop][download][url] = "git@code.web.engadmin.ohio-state.edu:cybersource_hop.git"
+projects[cybersource_hop][download][url] = "git://code.web.engadmin.ohio-state.edu/project/cybersource_hop.git"
 projects[cybersource_hop][download][branch] = "6.x-1.x"
 
 projects[csm][type] = "module"
 projects[csm][download][type] = "git"
-projects[csm][download][url] = "git@code.web.engadmin.ohio-state.edu:csm.git"
+projects[csm][download][url] = "git://code.web.engadmin.ohio-state.edu/project/csm.git"
 projects[csm][download][branch] = "6.x-1.x"
 
 libraries[csm][download][type]= "git"
-libraries[csm][download][url] = "git@code.web.engadmin.ohio-state.edu:csm_lib.git"
+libraries[csm][download][url] = "git://code.web.engadmin.ohio-state.edu/project/csm_lib.git"
 libraries[csm][directory_name] = "csm"
 libraries[csm][download][branch] = "1.x-1.x"
 libraries[csm][destination] = "libraries"
@@ -42,11 +46,11 @@ libraries[csm][destination] = "libraries"
 ; Awards Install Profile
 projects[awards_profile][type] = "profile"
 projects[awards_profile][download][type] = "git"
-projects[awards_profile][download][url] = "git@code.web.engadmin.ohio-state.edu:awards_profile.git"
+projects[awards_profile][download][url] = "git://code.web.engadmin.ohio-state.edu/project/awards_profile.git"
 projects[awards_profile][download][branch] = "6.x-1.x"
 
 ; ICL Install Profile
 projects[icl_profile][type] = "profile"
 projects[icl_profile][download][type] = "git"
-projects[icl_profile][download][url] = "git@code.web.engadmin.ohio-state.edu:icl_profile.git"
+projects[icl_profile][download][url] = "git://code.web.engadmin.ohio-state.edu/project/icl_profile.git"
 projects[icl_profile][download][branch] = "6.x-1.x"
