@@ -11,7 +11,6 @@ projects[] = ubercart
 projects[uc_who_bought_what][version] = 2.13
 projects[uc_who_bought_what][patch][] = "http://drupal.org/files/uc_who_bought_what-when.patch"
 projects[uc_zero_handler][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
-;projects[cybersource_hop][location] = "http://updates.web.engadmin.ohio-state.edu/release-history"
 
 libraries[uc_cybersource][download][type]= "git"
 libraries[uc_cybersource][download][url] = "git://code.web.engadmin.ohio-state.edu/project/uc_cybersource_dummy.git"
@@ -23,6 +22,12 @@ projects[dosu_site][type] = "module"
 projects[dosu_site][download][type] = "git"
 projects[dosu_site][download][url] = "git://code.web.engadmin.ohio-state.edu/project/dosu_site.git"
 projects[dosu_site][download][branch] = "6.x-1.x"
+
+; EEIC site
+projects[software_feature][type] = "module"
+projects[software_feature][download][type] = "git"
+projects[software_feature][download][url] = "git://code.web.engadmin.ohio-state.edu/project/software_feature.git"
+projects[software_feature][download][branch] = "6.x-1.x"
 
 ; Career Fair Stuff
 projects[cybersource_hop][type] = "module"
