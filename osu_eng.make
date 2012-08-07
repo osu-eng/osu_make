@@ -30,6 +30,7 @@ projects[] = css_injector
 projects[] = ctools
 projects[] = date
 projects[] = diff
+projects[] = draggableviews
 projects[emfield][version] = 2.x-dev
 projects[] = extlink
 projects[] = features
