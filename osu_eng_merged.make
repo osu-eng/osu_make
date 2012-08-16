@@ -18,6 +18,7 @@ libraries[uc_cybersource][directory_name] = "uc_cybersource"
 libraries[uc_cybersource][destination] = "libraries"
 
 ; Web website
+projects[] = pagepeeker
 projects[dosu_site][type] = "module"
 projects[dosu_site][download][type] = "git"
 projects[dosu_site][download][url] = "git://code.web.engadmin.ohio-state.edu/project/dosu_site.git"
