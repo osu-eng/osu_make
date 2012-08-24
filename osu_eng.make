@@ -9,9 +9,8 @@
 ;
 core = 6.x
 api=2
-projects[] = drupal
-;projects[drupal][patch][] = "http://code.web.engadmin.ohio-state.edu/?p=project/osu_eng_patch.git;a=blob_plain;f=remove-default-profile.patch;h=a585035cb8ca0a31b7ecbc77153269eb46a5edf5;hb=2ba1bc0cac24b06cf8b2dc93ea6ed6ac8e737438"
-; "http://code.web.engadmin.ohio-state.edu/osu_eng_patch.git/blob_plain/refs/heads/6.x-1.x:/remove-default-profile.patch"
+;projects[] = drupal
+projects[drupal][patch][] = "http://code.web.engadmin.ohio-state.edu/project/osu_eng_patch.git/blob_plain/6.x-1.x:/remove-default-profile.patch"
 
 
 ;
