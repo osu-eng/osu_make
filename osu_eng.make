@@ -27,6 +27,7 @@ projects[] = cck
 projects[] = ckeditor_link
 projects[] = css_gzip
 projects[] = css_injector
+projects[] = ctm
 projects[] = ctools
 projects[] = date
 projects[] = diff
@@ -230,4 +231,3 @@ libraries[kmphp_icl][destination] = "libraries"
 projects[osu_eng][type] = "profile"
 projects[osu_eng][download][type] = "git"
 projects[osu_eng][download][url] = "git://code.web.engadmin.ohio-state.edu/project/osu_eng.git"
-
