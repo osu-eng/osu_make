@@ -214,7 +214,7 @@ libraries[jquery.ui][destination] = "libraries"
 
 libraries[kmphp][download][type] = "git"
 libraries[kmphp][download][url] = "git://code.web.engadmin.ohio-state.edu/project/kmphp.git"
-libraries[kmphp][download][branch] = "1.x"
+libraries[kmphp][download][tag] = "1.0-beta4"
 libraries[kmphp][directory_name] = "kmphp"
 libraries[kmphp][destination] = "libraries"
 
