@@ -30,7 +30,7 @@ projects[software_feature][download][type] = "git"
 projects[software_feature][download][url] = "git://code.web.engadmin.ohio-state.edu/project/software_feature.git"
 projects[software_feature][download][branch] = "6.x-1.x"
 
-; Career Fair Stuff
+; Career Stuff
 projects[cybersource_hop][type] = "module"
 projects[cybersource_hop][download][type] = "git"
 projects[cybersource_hop][download][url] = "git://code.web.engadmin.ohio-state.edu/project/cybersource_hop.git"
@@ -46,6 +46,12 @@ libraries[csm][download][url] = "git://code.web.engadmin.ohio-state.edu/project/
 libraries[csm][directory_name] = "csm"
 libraries[csm][download][branch] = "1.x-1.x"
 libraries[csm][destination] = "libraries"
+
+libraries[csm_sal][download][type]= "git"
+libraries[csm_sal][download][url] = "git://code.web.engadmin.ohio-state.edu/project/csm_sal.git"
+libraries[csm_sal][directory_name] = "csm_sal"
+libraries[csm_sal][download][branch] = "1.x-1.x"
+libraries[csm_sal][destination] = "libraries"
 
 
 
