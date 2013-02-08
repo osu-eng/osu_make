@@ -4,8 +4,8 @@ core = 7.x
 ; Drush Make API Version
 api=2
 
-projects[] = drupal
-
+projects[drupal][type] = core
+projects[drupal][patch][1911876] = http://drupal.org/files/drupal-imgaltplain-1911876-1.patch
 
 ; Contrib
 projects[admin_menu][subdir] = "contrib"
@@ -37,7 +37,13 @@ projects[strongarm][subdir] = "contrib"
 projects[token][subdir] = "contrib"
 projects[transliteration][subdir] = "contrib"
 projects[views][subdir] = "contrib"
+
+; WYSIWYG is patched to allow ckeditor 4 support (issue started late Nov, attention from TwoD)
 projects[wysiwyg][subdir] = "contrib"
+projects[wysiwyg][download][type] = "git"
+projects[wysiwyg][download][revision] = "51f50c3f2d1775e642d7a230eadb517f6b13c1d9"
+projects[wysiwyg][download][branch] = "7.x-2.x"
+projects[wysiwyg][patch][] = "http://drupal.org/files/wysiwyg-support_v4_ckeditor-1853550-73.patch"
 
 ; Custom
 projects[dosu_auth][subdir] = "custom"
@@ -66,9 +72,34 @@ libraries[jquery_ui][destination] = "libraries"
 
 ; CKEditor
 libraries[ckeditor][download][type]= "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.4/ckeditor_3.6.4.tar.gz"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0.1/ckeditor_4.0.1_standard.tar.gz"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
+
+; CKEditor Plugins CodeMirror (HTML Highlighting)
+libraries[codemirror][download][type]= "get"
+libraries[codemirror][download][url] = "http://download.ckeditor.com/codemirror/releases/codemirror_1.02.zip"
+libraries[codemirror][download][subtree] = "codemirror"
+libraries[codemirror][directory_name] = "codemirror"
+libraries[codemirror][subdir] = "ckeditor/plugins"
+libraries[codemirror][destination] = "libraries"
+
+; CKEditor Plugin WordCount
+libraries[wordcount][download][type]= "get"
+libraries[wordcount][download][url] = "http://download.ckeditor.com/wordcount/releases/wordcount_1.0.zip"
+libraries[wordcount][download][subtree] = "wordcount"
+libraries[wordcount][directory_name] = "wordcount"
+libraries[wordcount][subdir] = "ckeditor/plugins"
+libraries[wordcount][destination] = "libraries"
+
+; CKEditor Plugin Bidi (changes text direction)
+libraries[bidi][download][type]= "get"
+libraries[bidi][download][url] = "http://download.ckeditor.com/bidi/releases/bidi_4.0.1.zip"
+libraries[bidi][download][subtree] = "bidi"
+libraries[bidi][directory_name] = "bidi"
+libraries[bidi][subdir] = "ckeditor/plugins"
+libraries[bidi][destination] = "libraries" 
+
 
 ; HTML Purifier
 libraries[htmlpurifier][download][type]= "get"
