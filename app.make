@@ -39,7 +39,7 @@ projects[strongarm][subdir] = "contrib"
 projects[token][subdir] = "contrib"
 projects[transliteration][subdir] = "contrib"
 projects[uuid][subdir] = "contrib"
-projects[uuid][version] = "7.x-1.x"
+projects[uuid][version] = "1.x-dev"
 projects[views][subdir] = "contrib"
 
 ; WYSIWYG is patched to allow ckeditor 4 support (issue started late Nov, attention from TwoD)
