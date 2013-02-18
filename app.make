@@ -60,13 +60,6 @@ projects[mailit][download][type] = "git"
 projects[mailit][download][url] = "git://code.engineering.osu.edu/project/mailit.git"
 projects[mailit][download][branch] = "7.x-1.x"
 
-; Mailing List Templates Project
-projects[mailit_templates][type] = "module"
-projects[mailit_templates][subdir] = "custom"
-projects[mailit_templates][download][type] = "git"
-projects[mailit_templates][download][url] = "git://code.engineering.osu.edu/project/mailit_templates.git"
-projects[mailit_templates][download][branch] = "7.x-1.x"
-
 ; Themes
 projects[] = adaptivetheme
 projects[] = corolla
