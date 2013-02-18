@@ -30,6 +30,7 @@ projects[mailsystem][subdir] = "contrib"
 projects[media][subdir] = "contrib"
 projects[mimemail][subdir] = "contrib"
 projects[module_filter][subdir] = "contrib"
+projects[node_export][subdir] = "contrib"
 projects[pathauto][subdir] = "contrib"
 projects[pathologic][subdir] = "contrib"
 projects[performance][subdir] = "contrib"
@@ -59,6 +60,12 @@ projects[mailit][subdir] = "custom"
 projects[mailit][download][type] = "git"
 projects[mailit][download][url] = "git://code.engineering.osu.edu/project/mailit.git"
 projects[mailit][download][branch] = "7.x-1.x"
+
+; Mailing List Project
+projects[mailit_profile][type] = "profile"
+projects[mailit_profile][download][type] = "git"
+projects[mailit_profile][download][url] = "git://code.engineering.osu.edu/project/mailit_profile.git"
+projects[mailit_profile][download][branch] = "7.x-1.x"
 
 ; Themes
 projects[] = adaptivetheme
