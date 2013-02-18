@@ -12,6 +12,7 @@ projects[admin_menu][subdir] = "contrib"
 projects[backup_migrate][subdir] = "contrib"
 projects[calendar][subdir] = "contrib"
 projects[captcha][subdir] = "contrib"
+projects[css_injector][subdir] = "contrib"
 projects[ctools][subdir] = "contrib"
 projects[devel][subdir] = "contrib"
 projects[email][subdir] = "contrib"
@@ -36,6 +37,7 @@ projects[shib_provision][subdir] = "contrib"
 projects[strongarm][subdir] = "contrib"
 projects[token][subdir] = "contrib"
 projects[transliteration][subdir] = "contrib"
+projects[uuid][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 
 ; WYSIWYG is patched to allow ckeditor 4 support (issue started late Nov, attention from TwoD)
@@ -103,6 +105,6 @@ libraries[bidi][destination] = "libraries"
 
 ; HTML Purifier
 libraries[htmlpurifier][download][type]= "get"
-libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.4.0.tar.gz"
+libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.5.0.tar.gz"
 libraries[htmlpurifier][directory_name] = "htmlpurifier"
 libraries[htmlpurifier][destination] = "libraries"
