@@ -75,6 +75,7 @@ projects[] = recaptcha
 projects[] = rules
 projects[] = securepages
 projects[] = semanticviews
+projects[] = service_links
 projects[] = shib_auth
 projects[] = spamspan
 projects[] = stringoverrides
