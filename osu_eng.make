@@ -37,6 +37,7 @@ projects[] = extlink
 projects[] = features
 projects[] = filefield
 projects[] = filter_perms
+projects[] = globalredirect
 projects[] = google_analytics
 projects[] = htmlpurifier
 projects[] = iconizer
